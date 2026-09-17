@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  nav .jobboldal {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+  }
+  nav #baloldal {
+    align-self: flex-start;
+  }
+  nav a {
+    border: 6px solid grey;
+    border-radius: 4px;
+    text-decoration: none;
+    color: cadetblue;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  
+  }
+  #hilker {
+      border:6px solid  gainsboro;
+  }

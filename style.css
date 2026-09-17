@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tarolo {
+  padding: 10px;
+  min-width: 100px;
+  flex: 1 1 400px;
+  border: 1px solid honeydew;
+  background-color: rgb(116, 175, 209);
+}
+
